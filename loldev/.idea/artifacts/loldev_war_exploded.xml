@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="loldev:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/loldev_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="loldev" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="loldev/web/Web" />
+    </root>
+  </artifact>
+</component>

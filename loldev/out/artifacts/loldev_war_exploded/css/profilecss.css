@@ -1,0 +1,187 @@
+body {
+    background: url('/images/champion_splash/Anivia_1.jpg') no-repeat center center fixed;
+    background-position-y: 20px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.profile-container {
+    margin: auto;
+    width: 100%;
+    background-color : #f1f1f1;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+.profile-header {
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+}
+
+.profile-name #name {
+    text-align: center;
+    font-size: 35px;
+    color: #ff0033;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-name #level {
+    font-size: 12px;
+    color: #ffffff;
+    border: 1px solid;
+    border-color: #0062cc;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #0062cc;
+}
+
+.profile-name #rank {
+    font-size: 12px;
+    color: #ffffff;
+    border: 1px solid;
+    border-color: #0062cc;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #0062cc;
+}
+
+.profile-name {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.profile-name a {
+    margin: 3px;
+}
+
+.icon-container img {
+    border-radius: 50%;
+}
+
+.icon-container {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.search-container-navbar button {
+    height: 40px;
+    background-color: #1b1e21;
+    border: 1px solid;
+    cursor:pointer;
+    overflow: hidden;
+    font-family : Verdana, Arial, sans-serif;
+    font-size: 18px;
+    color: #f4f3ff;
+    outline: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+body {
+    padding-top: 125px;
+}
+
+.sticky-offset {
+    top: 56px;
+}
+
+#body-row {
+    margin-left:0;
+    margin-right:0;
+}
+
+.body-container {
+    width: 100%;
+    min-height: 250px;
+    margin: 0;
+    background: url('/images/champion_splash/Katarina_4.jpg') center no-repeat;
+    background-position-y: -150px;
+    background-position-x: -210px;
+    background-size: 100vw;
+}
+
+.col {
+    padding: 0;
+}
+
+/*
+ * Ranked Div CSS =================================
+ */
+.rank-icon-container {
+    margin: auto;
+    min-height: 200px;
+}
+
+.rank-icon-container #soloQ {
+    padding-left: 100px;
+    padding-top: 25px;
+}
+
+.rank-icon-container #soloQ, .rank-icon-container #tier-info, .rank-icon-container #win-rates {
+    display: inline-block;
+    vertical-align:top;
+}
+
+.rank-icon-container #tier-info .tier-stats {
+    padding-top: 75px;
+}
+
+.rank-icon-container #tier-info #rank {
+    color: #ffe10c;
+    font-size: 20px;
+}
+
+.rank-icon-container #tier-info #points {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.rank-icon-container #tier-info #name {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.rank-icon-container #win-rates {
+    padding-top: 30px;
+    padding-right: 50px;
+    float: right;
+}
+
+.rank-icon-container #soloQLogo {
+    border: 1px solid;
+    padding-left: 150px;
+    background-color: #1d2124;
+}
+
+.rank-icon-container #soloQLogo a {
+    color: #cdcc30;
+    font-size: 20px;
+}
+
+.rank-icon-container #soloQLogo #rates {
+    float: right;
+    padding-right: 60px;
+}
+
+/*
+ * Ranked Div CSS =================================
+ */

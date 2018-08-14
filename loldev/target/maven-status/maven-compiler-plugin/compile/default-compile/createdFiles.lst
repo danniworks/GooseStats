@@ -1,0 +1,9 @@
+server\controller\HttpHelper.class
+ui\model\SummonerRankedProfile.class
+server\api\ErrorHelper.class
+server\controller\AjaxDealer.class
+ui\builder\ProfileBuilder$1.class
+ui\builder\ProfileBuilder.class
+server\api\ApiHelper.class
+server\controller\ObjectController.class
+ui\model\SummonerRankedStats.class

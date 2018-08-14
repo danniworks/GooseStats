@@ -1,0 +1,301 @@
+/*
+ * ==== Custom Class and Id CSS Begin ====
+ */
+
+body {
+    background: url('/images/champion_splash/Ekko_2.jpg') no-repeat center center fixed;
+    background-position-y: 10px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*
+ * ---- Landing page css ----
+ */
+.body_wrapper {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    padding-top: 90px;
+}
+
+.search-container {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.select_options {
+    margin: auto;
+    padding-left: 35%;
+}
+
+.select_options button {
+    height: 25px;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    font-family : Verdana, Arial, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    outline: 0;
+}
+
+.select_options button:focus {
+    outline: 0;
+}
+
+.select_options button:hover {
+    color: #f2f070;
+}
+
+input[type=text] {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    height: 40px;
+    width: 400px;
+    cursor:pointer;
+    overflow: hidden;
+    padding-left: 10px;
+    color: #7e81ad;
+    outline: none;
+}
+
+input[type=text]:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.search-area button {
+    height: 40px;
+    background-color: #1b1e21;
+    border: 1px solid;
+    cursor:pointer;
+    overflow: hidden;
+    font-family : Verdana, Arial, sans-serif;
+    font-size: 18px;
+    color: #f4f3ff;
+    outline: 0;
+}
+
+.search-area button:focus {
+    outline: 0;
+}
+
+.result-container {
+    margin: auto;
+    width: 75%;
+    background-color: white;
+}
+
+/*
+ * ==== Custom Class and Id CSS End ====
+ */
+/*
+ * ==== Navbar CSS Begin ====
+ */
+.navbar {
+    background-color: #000000;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.navbar .navbar-brand {
+    color: #fff700;
+    padding-left : 5em;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar .navbar-text {
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+}
+.navbar .navbar-text a {
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #20ff00;
+}
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+    font-family : "Bookman", Gadget, sans-serif;
+    font-size: 15px;
+}
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    text-decoration: underline;
+}
+.navbar .navbar-nav .dropdown-menu {
+    background-color: #000000;
+    border-color: #0036b8;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+    color: #fff700;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #0036b8;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+    border-top-color: #0036b8;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #ffffff;
+    background-color: #0036b8;
+}
+.navbar .navbar-toggle {
+    border-color: #5100cd;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #5100cd;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #fff700;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #fff700;
+}
+.navbar .navbar-link {
+    color: #ffffff;
+}
+.navbar .navbar-link:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #fff700;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #0036b8;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #fff700;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #0036b8;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #fff700;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #0036b8;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #fff700;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #0036b8;
+    }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #fff700;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #0036b8;
+}
+
+/*
+ * ==== Navbar CSS End ====
+ */
+
+.page-footer {
+    background-color: #000000;
+    color: white;
+    font-size: 12px;
+}
+
+.page-footer a {
+    color: white;
+}
+
+/*
+ * ==== Top Navbar CSS ===
+ */
+
+#navSearch {
+    margin-top: 15px;
+}
+
+#navSearch #searchBox {
+}
+
+.search-container-navbar {
+    margin: auto;
+    text-align: center;
+}
+
+.errorMessage {
+    margin: auto;
+    width: 50%;
+    background-color: #000000;
+    text-align: center;
+}
+
+.errorMessage #errorA {
+    color: #f20035;
+}
+
+.select_options .sfilter {
+    background-color: #0062cc;
+    border: 1px solid;
+}
